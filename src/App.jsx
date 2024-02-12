@@ -1,0 +1,19 @@
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+
+
+function App() {
+  const [count, setCount] = useState(0)
+
+  return (
+    <>
+    <div className='bg-black h-[900px] w-full '>
+
+    <h1 className='text-white'>hobbycue</h1>
+    </div>
+    </>
+  )
+}
+
+export default App
